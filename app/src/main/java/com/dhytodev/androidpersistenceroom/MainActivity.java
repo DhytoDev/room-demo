@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void populateDb() {
-        DatabaseIniatializer.populateSync(mDb);
+        DatabaseInitializer.populateSync(mDb);
+        DatabaseInitializer.addUser(mDb, "3", "Bambang");
     }
 
     private void fetchData() {

@@ -1,14 +1,14 @@
 package com.dhytodev.androidpersistenceroom;
 import android.support.annotation.NonNull;
 
-public class DatabaseIniatializer {
+public class DatabaseInitializer {
 
 
     public static void populateSync(@NonNull final AppDatabase db) {
         populateDataDummy(db);
     }
 
-    private static User addUser(final AppDatabase db, final String id, final String nama) {
+    public static User addUser(final AppDatabase db, final String id, final String nama) {
         User user = new User();
         user.id = id;
         user.nama = nama;
