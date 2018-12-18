@@ -12,7 +12,7 @@ import androidx.paging.PagedList;
 
 public class UserViewModel extends ViewModel {
     private AppDatabase mDb;
-    private LiveData<PagedList<User>> userList;
+    LiveData<PagedList<User>> userList;
 
     public UserViewModel(AppDatabase mDb) {
         this.mDb = mDb;
