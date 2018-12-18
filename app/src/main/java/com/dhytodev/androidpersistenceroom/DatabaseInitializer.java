@@ -21,5 +21,24 @@ public class DatabaseInitializer {
 
         addUser(db, "1", "Baso");
         addUser(db, "2", "Bacce");
+        addUser(db, "3", "Dhyto");
+        addUser(db, "4", "Angga");
+        addUser(db, "5", "Pratama");
+        addUser(db, "6", "Ricky");
+        addUser(db, "7", "Kawanda");
+        addUser(db, "8", "Suwardi");
+        addUser(db, "9", "Kevin");
+        addUser(db, "10", "Sanjaya");
+        addUser(db, "11", "Sukamulyo");
+        addUser(db, "12", "Tontowi");
+        addUser(db, "13", "Ahmad");
+        addUser(db, "14", "Hendra");
+        addUser(db, "15", "Setiawan");
+        addUser(db, "16", "Reza");
+        addUser(db, "17", "Alamsyah");
+        addUser(db, "18", "Maulana");
+        addUser(db, "19", "Kasmir");
+        addUser(db, "20", "Syariati");
+        addUser(db, "21", "Mawar");
     }
 }
