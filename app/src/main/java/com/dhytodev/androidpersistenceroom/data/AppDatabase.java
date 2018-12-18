@@ -1,4 +1,4 @@
-package com.dhytodev.androidpersistenceroom;
+package com.dhytodev.androidpersistenceroom.data;
 
 import android.content.Context;
 

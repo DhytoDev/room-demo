@@ -1,4 +1,4 @@
-package com.dhytodev.androidpersistenceroom;
+package com.dhytodev.androidpersistenceroom.data;
 
 
 import androidx.room.Entity;
@@ -10,5 +10,7 @@ public class User {
     @PrimaryKey
     @NonNull
     public String id;
+
+    @NonNull
     public String nama;
 }

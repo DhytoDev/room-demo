@@ -1,10 +1,9 @@
-package com.dhytodev.androidpersistenceroom;
+package com.dhytodev.androidpersistenceroom.data;
 
+import androidx.paging.DataSource;
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.Query;
-
-import java.util.List;
 
 import static androidx.room.OnConflictStrategy.IGNORE;
 
@@ -12,7 +11,7 @@ import static androidx.room.OnConflictStrategy.IGNORE;
 public interface UserDao {
 
     @Query("SELECT * FROM User")
-    List<User> loadAllUsers();
+    DataSource.Factory<Integer, User> getAllUsers();
 
     @Query("select * from user where id = :id")
     User loadUserById(String id);

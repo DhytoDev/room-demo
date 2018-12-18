@@ -1,4 +1,7 @@
-package com.dhytodev.androidpersistenceroom;
+package com.dhytodev.androidpersistenceroom.data;
+import com.dhytodev.androidpersistenceroom.data.AppDatabase;
+import com.dhytodev.androidpersistenceroom.data.User;
+
 import androidx.annotation.NonNull;
 
 public class DatabaseInitializer {
